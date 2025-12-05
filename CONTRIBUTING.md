@@ -37,4 +37,6 @@ In order for the estimator to be compatible with the framework, **it needs to in
 
 For a quick simple example you can look at `src/infrastructure/estimation/energy/my_estimator.py` and `src/infrastructure/estimation/convertor/my_convertor.py`.
 
+The `dev_notebook.ipynb` is here to give you inspiration on how to iterate on your method.
+
 ⚠️ **If your estimator needs additional parameters** please use [GitHub Issues](https://github.com/fondationsahar/trackarbon-core/issues/new) to suggest extending the `Event` or `AIEventMetadata` classes.
