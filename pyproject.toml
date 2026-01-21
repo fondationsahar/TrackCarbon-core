@@ -1,10 +1,13 @@
 [project]
 name = "trackarbon-core"
 version = "0.1.0"
-description = "Add your description here"
+description = "This project exposes the methods used in TrackCarbon app to monitor CO2 usage."
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "fastparquet>=2025.12.0",
+    "numpy>=2.4.0",
+    "pandas>=2.3.3",
     "pydantic>=2.12.4",
 ]
 

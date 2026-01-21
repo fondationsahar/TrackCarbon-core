@@ -8,3 +8,5 @@ wheels/
 
 # Virtual environments
 .venv
+*.ipynb
+!development_notebook.ipynb
