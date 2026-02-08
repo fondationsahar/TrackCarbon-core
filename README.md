@@ -13,8 +13,21 @@ Thanks for considering contributing to this project! Let's dive into how to cont
 - Clone the repository
   ```bash
   git clone https://github.com/fondationsahar/trackarbon-core.git
+  cd trackarbon-core
   ```
 
+- Set up the development environment with uv:
+  ```bash
+  # Install uv if you haven't already
+  curl -LsSf https://astral.sh/uv/install.sh | sh
+
+  # Create a virtual environment and install dependencies
+  uv venv
+  source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+
+  # Install the project with dev dependencies
+  uv pip install -e . --group dev
+  ```
 
 - Create a new branch:
   ```bash
