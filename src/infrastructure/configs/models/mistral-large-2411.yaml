@@ -1,0 +1,12 @@
+- method: nidhal
+  description: ""
+  parameters:
+    num_gpu_for_inference: 8
+    share_of_total_gpu_power_used: 0.07
+    share_of_total_gpu_power_used_by_non_gpu: 0.06
+    max_rated_power_per_gpu: 5.6 # in kW
+    max_rated_power_for_non_gpu_parts: 4.6 # in kW
+    tokens_per_second: 47
+    data_center_power_usage_effectiveness: 1.12
+    batch_size_used_for_inference: 8
+    latency: 0.46 # in seconds
