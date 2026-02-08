@@ -12,8 +12,8 @@ def fake_events() -> list[Event]:
             type=SupportedEventMetadata.AI,
             timestamp=datetime(2023, 10, 1, 12, 0, tzinfo=DEFAULT_TIMEZONE),
             created_at=datetime(2023, 10, 1, 12, 0, tzinfo=DEFAULT_TIMEZONE),
-            domain_alias="anthropic",
-            model="claude-sonnet-4",
+            domain_alias="mistral",
+            model="mistral-large-2411",
             event_metadata=AIEventMetadata(
                 prompt="You there?",
                 response="Hello - this is a test",
